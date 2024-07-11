@@ -1,0 +1,7 @@
+version: '3.6'
+
+services:
+  demo:
+    image: 'asjn83/demo:latest'
+    ports:
+      - 8080:8080 # change to 80XX:8080 if you have a port conflict (replace XX with a number between 00 and 99)
